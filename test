@@ -1,7 +1,0 @@
-first time set up
-git config --global user.name "Zafar Kamal"
-git config --global user.email "zafar_418@yahoo.com"
-git config --global init.default branch main
-git config --global --list
-git init
-
