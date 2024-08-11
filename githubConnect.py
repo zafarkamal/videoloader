@@ -92,10 +92,10 @@ def generate_html_email(data):
     """
     return html_content
 
-for remaining in range(10,0,-5):
+for remaining in range(200,0,-5):
     logging.info(f"Waiting for {remaining} seconds")
     print (f"Please wait for {remaining} seconds\n")
-    time.sleep(5)
+    time.sleep(20)
 returned_data = url_parsing("https://api.github.com/users/zafarkamal/repos")
 logging.info(f"GitHUb project name is {returned_data[0]},{returned_data[1]},UserName is :{returned_data[2]},WEB_URL: {returned_data[3]},Status Code:{returned_data[4]}")
 print (returned_data[0],returned_data[1],returned_data[2],returned_data[3],returned_data[4])
